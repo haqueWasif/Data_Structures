@@ -1,0 +1,64 @@
+Space Complexity -> Input Space + Auxiliary Space
+
+int s = a + b;
+
+here,
+s -> Auxiliary Space 
+a & b -> Input Space
+
+Auxiliary Space & Input Space the maximum of which is the Space Complexity
+
+These are of constant space
+
+Space complexity of these are:
+s -> O(1)
+a & b -> O(1)
+
+Ex:
+
+int a[N] -> Input Space
+int b[N] -> Auxiliary Space
+
+Input Space -> O(N)
+Auxiliary Space -> O(N)
+
+So maximum of these 2 is O(N) so space complexity is O(N)
+
+Ex:
+
+int a[N] -> Input Space
+int b[5] -> Auxiliary Space
+
+Input Space -> O(N)
+Auxiliary Space -> constant
+
+Ex:
+
+int a[N] -> Input Space
+int b[N*N] -> Auxiliary Space
+
+Input Space -> O(N)
+Auxiliary Space -> O(N*N)
+
+So maximum of these 2 is O(N*N) so space complexity is O(N*N)
+
+Ex:
+
+int a[n][m] -> O(n*m)
+
+// Online judge gives maximum 10^6 size to allocate
+
+So maximum space complexity are:
+
+1D array: O(N) -> 10^6
+2D array: O(N*M) -> 10^3
+
+
+Space Complexity Order:
+
+O(N) -> 10^6
+O(N*M) -> 10^3
+O(NlogN) -> 10^5
+O(logN) -> 10^18
+O(sqrt(N)) -> 10^12
+

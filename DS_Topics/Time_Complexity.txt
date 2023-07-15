@@ -1,0 +1,21 @@
+// Time Complexity -> Measurement of how efficient an alogorithm is compared to other algorithm
+
+// It is not measured by execution time for different devices like a code running in a low spec pc or a code running in high spec pc
+
+// It is measured by the Big O notation which is O(steps)
+// Rules for calulating time complexity
+/*
+    1. Always calculate for worst case
+    2. Ignore the constants
+*/
+
+// Complexity is calculated for loops, recursion which is also a type of loop. For any variable declaration or any code not involving loop complexity is O(1)
+
+// When we do not know the complexity we usually write it like this O(n + m + x + z)
+
+
+// How time is calculated from time complexity
+// Maximum server in online judge does 10^8 operations in 1 sec we generally approximate it to 10^7 operations since some servers might take less
+
+// if N = 10^7 then O(N) i.e O(10^7) means program is of 1 sec
+// if N = 10^8 then O(N) means program is of 10 sec

@@ -1,0 +1,7 @@
+/*
+
+STL -> Standard Template Library
+
+STL or Library for dynamic array is Vector
+
+*/
